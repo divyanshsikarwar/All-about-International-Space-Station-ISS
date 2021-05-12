@@ -14,7 +14,7 @@ var country = ""
 var resp = 0
 function call (){
 
-var request = new Request('http://api.open-notify.org/iss-now.json');
+var request = new Request('https://api.open-notify.org/iss-now.json');
 
 fetch(request).then(function(response) {
   return response.json();
