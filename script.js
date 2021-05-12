@@ -14,7 +14,7 @@ var country = ""
 var resp = 0
 function call (){
 
-var request = new Request('https://api.open-notify.org/iss-now.json');
+var request = new Request('http://api.open-notify.org/iss-now.json');
 
 fetch(request).then(function(response) {
   return response.json();
@@ -25,11 +25,11 @@ fetch(request).then(function(response) {
  x.innerText =  latitude;
  y.innerText = longitude;
  console.log(longitude,latitude)
- URL = "https://us1.locationiq.com/v1/reverse.php?key=pk.2e2c619b60&lat=" + latitude + "&lon=" + longitude + "&format=json"
+ URL = "https://us1.locationiq.com/v1/reverse.php?key=pk.2e2c69c356595ca83c401c67ea119b60&lat=" + latitude + "&lon=" + longitude + "&format=json"
  console.log(URL)
 });
 
-
+/* @cWDvs*CjeAPvaw(gS!t */
 
 var request = new Request(URL);
 
@@ -92,10 +92,12 @@ coll[0].addEventListener("click", function() {
     content.style.maxHeight = null;
     content.style.paddingBottom = "0px";
     content.style.paddingTop = "0px";
+    coll[0].style.backgroundColor = "#eee";
   } else {
     content.style.maxHeight = content.scrollHeight + "px";
     content.style.paddingBottom = "15px";
     content.style.paddingTop = "10px"
+    coll[0].style.backgroundColor = "grey";
   } 
 })
 
@@ -106,10 +108,12 @@ coll[1].addEventListener("click", function() {
     content.style.maxHeight = null;
     content.style.paddingBottom = "0px";
     content.style.paddingTop = "0px";
+    coll[1].style.backgroundColor = "#eee";
   } else {
     content.style.maxHeight = content.scrollHeight + "px";
     content.style.paddingBottom = "15px";
     content.style.paddingTop = "10px"
+    coll[1].style.backgroundColor = "grey";
   } 
 })
 
@@ -123,6 +127,115 @@ function button3 (){
 btn.addEventListener("click",button3,false);
 
 
-/*https://us1.locationiq.com/v1/reverse.php?key=pk.2e2c69c356595ca83c401c67ea119b60&lat=+34.0110+&lon=+85.8117+&format=json
 
-https://us1.locationiq.com/v1/reverse.php?key=pk.2e2c69c356595ca83c401c67ea119b60&lat=27.4924+&lon=77.6737+&format=json */
+
+particlesJS("particles-js", {
+  "particles": {
+    "number": {
+      "value": 355,
+      "density": {
+        "enable": true,
+        "value_area": 789.1476416322727
+      }
+    },
+    "color": {
+      "value": "#ffffff"
+    },
+    "shape": {
+      "type": "circle",
+      "stroke": {
+        "width": 0,
+        "color": "#000000"
+      },
+      "polygon": {
+        "nb_sides": 5
+      },
+      "image": {
+        "src": "img/github.svg",
+        "width": 100,
+        "height": 100
+      }
+    },
+    "opacity": {
+      "value": 0.48927153781200905,
+      "random": false,
+      "anim": {
+        "enable": true,
+        "speed": 0.2,
+        "opacity_min": 0,
+        "sync": false
+      }
+    },
+    "size": {
+      "value": 2,
+      "random": true,
+      "anim": {
+        "enable": true,
+        "speed": 2,
+        "size_min": 0,
+        "sync": false
+      }
+    },
+    "line_linked": {
+      "enable": false,
+      "distance": 150,
+      "color": "#ffffff",
+      "opacity": 0.4,
+      "width": 1
+    },
+    "move": {
+      "enable": true,
+      "speed": 0.2,
+      "direction": "none",
+      "random": true,
+      "straight": false,
+      "out_mode": "out",
+      "bounce": false,
+      "attract": {
+        "enable": false,
+        "rotateX": 600,
+        "rotateY": 1200
+      }
+    }
+  },
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onhover": {
+        "enable": true,
+        "mode": "bubble"
+      },
+      "onclick": {
+        "enable": true,
+        "mode": "push"
+      },
+      "resize": true
+    },
+    "modes": {
+      "grab": {
+        "distance": 400,
+        "line_linked": {
+          "opacity": 1
+        }
+      },
+      "bubble": {
+        "distance": 83.91608391608392,
+        "size": 1,
+        "duration": 3,
+        "opacity": 1,
+        "speed": 3
+      },
+      "repulse": {
+        "distance": 200,
+        "duration": 0.4
+      },
+      "push": {
+        "particles_nb": 4
+      },
+      "remove": {
+        "particles_nb": 2
+      }
+    }
+  },
+  "retina_detect": true
+});
