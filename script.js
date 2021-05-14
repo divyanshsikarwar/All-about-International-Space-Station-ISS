@@ -4,6 +4,7 @@ function showPage() {
   document.getElementsByClassName("app-main")[0].style.opacity="1";
 }
 var myVar;
+
 myVar = setTimeout(showPage, 3000);
 
 
