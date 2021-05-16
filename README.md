@@ -20,3 +20,11 @@ Use HTTP instead of HTTPS as the NASA's api dosn't communicate over HTTPS
 
 #### Here is the interesting part :
 ![GitHub Logo](/components/ss3.png)
+#### What you can see here is a red location mark which shows the live location of the ISS which can be noticed moving every 0.5 seconds, this is purely coded in JS, NO Rest API, this is getting rendered in the real time.
+
+#### When you encounter an error like `Currently, ISS is above a place on Globe that can't be Geocoded.` at that time you can take a look on the 2D map and you will notice it is somewhere at a position like this :
+![GitHub Logo](/components/ss4.png)
+
+#### And as you can clearly see ISS is not at some place which can be reverse geocoded into `city`, `state` or `country`.
+
+[UPDATE] : Refresh time is changed from 0.5 sec to 2 secs as there is an inherent uncertainty in the ISS position models that is usually larger than one second. In addition the position is only calculated once per second (the maximum resolution of an integer unix time stamp). So polling more than 1 Hz would be useless except to add unnessisary strain to the servers.
