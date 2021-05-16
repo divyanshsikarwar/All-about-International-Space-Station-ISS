@@ -12,4 +12,7 @@ Use HTTP instead of HTTPS as the NASA's api dosn't communicate over HTTPS
 
 #### When you visit the page it will look like this for some seconds : 
 ![GitHub Logo](/components/ss1.png)
-#### Its because at that moment of time JS is calculating the speed of the craft and trying to reverse geocode the location recieved from NASA, which sometimes fails too as discussed at the bottom of web page in `Frequently asked question` coloumn.
+#### Its because at that moment of time JS is calculating the speed of the craft and trying to reverse geocode the location recieved from NASA, which sometimes fails too as discussed at the bottom of web page in `Frequently asked questions` coloumn.
+
+#### After few seconds you must be looking at something like this :
+![GitHub Logo](/components/ss2.png)
