@@ -16,3 +16,7 @@ Use HTTP instead of HTTPS as the NASA's api dosn't communicate over HTTPS
 
 #### After few seconds you must be looking at something like this :
 ![GitHub Logo](/components/ss2.png)
+#### By clicking on Locate on globe you will be redirected to the 3D version of world which can also be seen just below this. And by clicking on locate on map you will be redirected to google maps.
+
+#### Here is the interesting part :
+![GitHub Logo](/components/ss3.png)
