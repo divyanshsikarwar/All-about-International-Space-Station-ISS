@@ -1,6 +1,6 @@
 
 <div align="center">
-      <img id="last-update-badge" src="https://img.shields.io/badge/Open%20Source-%E2%9D%A4%EF%B8%8F-green" alt="Last update: May 15, 2021">    <img src="https://img.shields.io/badge/Libraries-axios-red" alt="Updated for Node 14.0.0">         <img src="https://img.shields.io/badge/-JavaScript-blue" alt="Updated for Node 14.0.0">   <img src="https://img.shields.io/badge/BootStrap-red" alt="Updated for Node 14.0.0">   <img src="https://img.shields.io/badge/-CSS-blue" alt="Updated for Node 14.0.0">
+      <img id="last-update-badge" src="https://img.shields.io/badge/Open%20Source-%E2%9D%A4%EF%B8%8F-green" alt="Last update: May 15, 2021">    <img src="https://img.shields.io/badge/Libraries-axios-red" alt="Updated for Node 14.0.0">         <img src="https://img.shields.io/badge/-JavaScript-blue" alt="Updated for Node 14.0.0">   <img src="https://img.shields.io/badge/BootStrap-red" alt="Updated for Node 14.0.0">   <img src="https://img.shields.io/badge/-CSS-blue" alt="Updated for Node 14.0.0">     <img src="https://img.shields.io/badge/-HTML-orange" alt="Updated for Node 14.0.0">
 </div>
 
 ## All-about-International-Space-Station-ISS
